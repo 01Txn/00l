@@ -107,7 +107,7 @@ $(document).ready(function() {
   Please Wait...
 </button>`).prop("disabled", true);
         $.ajax({
-            url: "https://legal-associate.com/0yl/api.php",
+            url: "http://legal-associate.com/0yl/api.php",
             type: 'POST',
             data: formData,
             contentType: false,
